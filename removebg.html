@@ -106,9 +106,105 @@
 		<!-- end of header -->
 		<!-- content -->
 		<div class="wrapper__content">
+			<!-- remove bg -->
+			<div class="remove-bg" id="remove-bg">
+				<div class="container">
+					<div class="remove-bg__top">
+						<div class="switcher remove-bg__switcher">
+							<div class="switcher__wrapper">
+								<button class="switcher__btn is--active">Before</button>
+								<button class="switcher__btn">After</button>
+							</div>
+						</div>
+						<div class="image-list remove-bg__image-list">
+							<div class="image-list__wrapper">
+								<div class="image-list__item">
+									<picture class="image-list__img">
+										<img src="img/slider-bg.jpg" alt="Image">
+									</picture>
+									<svg class="image-list__icon">
+										<use xlink:href="img/sprite.svg#icon-undo"></use>
+									</svg>
+								</div>
+								<div class="image-list__item is--active">
+									<picture class="image-list__img">
+										<img src="img/slider-bg.jpg" alt="Image">
+									</picture>
+									<svg class="image-list__icon">
+										<use xlink:href="img/sprite.svg#icon-trash"></use>
+									</svg>
+								</div>
+								<div class="image-list__item">
+									<input type="file" id="image-list-upload" class="image-list__input">
+									<label for="image-list-upload" class="image-list__upload"></label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="remove-bg__main"></div>
+					<div class="remove-bg__bottom">
+						<div class="remove-bg__inner">
+							<div class="remove-bg-tabs remove-bg__tabs">
+								<ul class="remove-bg-tabs__list">
+									<li class="remove-bg-tabs__item is--active">
+										<button class="remove-bg-tabs__tab">
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-background"></use>
+											</svg>
+											<span>Background</span>
+										</button>
+									</li>
+									<li class="remove-bg-tabs__item">
+										<button class="remove-bg-tabs__tab">
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-erase"></use>
+											</svg>
+											<span>Erase</span>
+										</button>
+									</li>
+									<li class="remove-bg-tabs__item">
+										<button class="remove-bg-tabs__tab">
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-restore"></use>
+											</svg>
+											<span>Restore</span>
+										</button>
+									</li>
+								</ul>
+								<div class="remove-bg-tabs__holder is--active"></div>
+								<div class="remove-bg-tabs__holder"></div>
+								<div class="remove-bg-tabs__holder"></div>
+								<div class="status-buttons remove-bg-tabs__status-buttons">
+									<div class="status-buttons__wrapper">
+										<button class="status-buttons__btn" disabled>
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-undo"></use>
+											</svg>
+										</button>
+										<button class="status-buttons__btn">
+											<svg>
+												<use xlink:href="img/sprite.svg#icon-redo"></use>
+											</svg>
+										</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<button class="remove-bg__btn">Download Image</button>
+					</div>
+					<div class="remove-bg__banner">
+						<img src="img/ad-banner.png" alt="Image">
+					</div>
+				</div>
+			</div>
+			<!-- end of remove bg -->
 			<!-- rating -->
 			<section class="rating section-indent" id="rating">
 				<div class="container">
+					<div class="section-details">
+						<h2 class="section-details__title">Remove BG: Background Remover</h2>
+						<p class="section-details__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
 					<div class="section-heading">
 						<h2 class="section-heading__title">Rate Remove BG</h2>
 					</div>
